@@ -11,15 +11,11 @@ body {
 
   }
 
-  html, body {
-    overflow: hidden;
-}
-
 /* Hide scroll bar for IE, Edge and Firefox */
-html, body {
+html{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-}
+} */
 
   #navbar {
     /* background-color: white; */

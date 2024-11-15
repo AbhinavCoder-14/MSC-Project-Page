@@ -11,10 +11,11 @@ body {
 
   }
 
-  
+
   #navbar {
     /* background-color: white; */
-    position: fixed;
+    position: sticky;
+    z-index: 1;
     width: 100%;
     background-color:#121927;
     border: 1px solid #24314b;

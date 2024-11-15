@@ -8,6 +8,12 @@ body {
 	/* background: #17374c; */
 /* } */
  
+
+
+
+
+
+
 .work {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,13 +37,16 @@ body {
 .team-area {
 	
 	
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	border: 2px solid red;
+    display: flex
+;
+    height: 136vh;
+    align-items: center;
+    justify-content: center;
 	/* min-height: 100vh; */
 	color: #fff;
     /* position: relative; */
-	background: linear-gradient(135deg, #0c1224, #10182f);
+	background: linear-gradient(135deg, #111c3b, #1b2850);
 }
 .box {
 	position: relative;

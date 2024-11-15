@@ -361,3 +361,119 @@ body {
         bottom: 20px;
     }
 }
+
+
+/* footer section */
+
+.footer-section {
+	height: 45vh;
+	/* width: 100%; */
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding: 0px 20px;
+}
+
+.footer-section-1{
+	box-shadow: inset 0 6px 15px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo-name-tagline h1{
+	font-size: 1.7rem;
+}
+
+.uppr-section {
+	width: 100%;
+	height: 35vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logo-name-tagline {
+	width: 30%;
+	height: 30vh;
+	padding: 20px 0px;
+	text-align: center;
+	margin: 12px;
+	color: white;
+	padding: 0px 10px;
+}
+
+.logo-name-tagline img {
+	height: 110px;
+}
+
+.usefull-links {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 10px;
+
+	text-decoration: none;
+	color: white;
+}
+
+.usefull-links a {
+	padding: 3px;
+
+}
+
+.usefull-links a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.Contact-details {
+	width: 30%;
+	padding: 20px 15px;
+
+
+	text-align: center;
+	color: white;
+}
+
+.All-social-handles {
+	margin: 15px 0px;
+}
+
+.divider {
+	height: 1px;
+	/* Thin line */
+	background-color: #5897e093;
+	/* Line color */
+	margin: 20px auto;
+	/* Space around the line */
+	width: 94%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.nav-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin-left: -32px;
+	/*ul and li have default border margin of 1 rem that why i overwrite it */
+}
+
+.nav-right-logo {
+	margin: 0px 10px;
+}
+
+
+.invert1 {
+	filter: invert(1);
+}
+
+
+.copyright-section {
+	text-align: center;
+	color: rgb(255, 255, 255);
+}

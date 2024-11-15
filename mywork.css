@@ -134,3 +134,76 @@ body {
 		font-size: 20px;
 	}
 } */
+
+
+
+/* footer section */
+
+.footer-section{
+	height: 45vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+
+}
+.uppr-section{
+	width: 90%;
+	height: 35vh;
+	display: flex;
+	flex-direction:  row;
+	justify-content: space-between;
+}
+
+.logo-name-tagline{
+	width: 30%;
+	height: 30vh;
+	padding: 20px 0px;
+	text-align: center;
+	color: white;
+}
+
+.usefull-links{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+}
+
+.usefull-links a{
+	padding: 3px;
+
+}
+
+.usefull-links a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.Contact-details{
+	width: 30%;
+	text-align: center;
+	color: white;
+}
+
+
+.nav-right {	
+	display: flex;
+	flex-direction: row;
+	justify-content: center
+	;
+	align-items: center;
+	list-style: none;
+	margin-left: -32px; /*ul and li have default border margin of 1 rem that why i overwrite it */
+  }
+
+  .nav-right-logo{
+	margin: 0px 10px;
+  }
+
+  
+.invert1 {
+	filter: invert(1); 
+  }

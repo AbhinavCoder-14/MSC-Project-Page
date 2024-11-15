@@ -11,11 +11,11 @@ body {
 .work {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 1.8rem;
     position: absolute;
     top: 10%;
     /* left: 39%; */
-    color: #0078D4;;
+    color: white;
 }
 
 .team-area {

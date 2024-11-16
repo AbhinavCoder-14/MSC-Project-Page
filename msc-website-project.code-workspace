@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../msc-website-project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MSC-Project-Page"
+	}
+}

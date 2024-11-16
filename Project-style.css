@@ -18,20 +18,21 @@ body {
 	color: black;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 1.4rem;
-	position: absolute;
-	margin: 10px 0px;
+	/* position: absolute; */
+	/* margin: 10px 0px; */
 
-	top: 10%;
+	/* top: 10%; */
 	color: rgb(255, 255, 255);
 	text-decoration: none;
-	padding: 0px 6vw;
+	margin-bottom: 20px;
+	/* padding: 0px 6vw; */
 
 }
 
 .work a img {
 	height: 88px;
 	filter: brightness(3.5);
-	padding: 0px 14px;
+	/* padding: 0px 14px; */
 }
 
 .work a {
@@ -266,3 +267,114 @@ body {
 	text-align: center;
 	color: rgb(255, 255, 255);
 }
+
+
+
+
+/* project section all styles */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0D22;
+    color: #FFFFFF;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 10px auto;
+	height: 100vh;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .project-list {
+    flex: 1;
+  }
+  
+  .project-item {
+    display: flex;
+    align-items: center;
+    background-color: #1A1D33;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .project-item .icon {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  
+  .project-item .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-item h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .status {
+    font-size: 0.9em;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  
+  .status.ongoing {
+    background-color: #FFD700;
+    color: #0A0D22;
+  }
+  
+  .status.completed {
+    background-color: #32CD32;
+    color: #FFFFFF;
+  }
+  
+  .status.upcoming {
+    background-color: #1E90FF;
+    color: #FFFFFF;
+  }
+  
+  .project-description {
+    flex: 2;
+    background-color: #1A1D33;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project-description img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .project-description p {
+    font-size: 1em;
+    text-align: center;
+  }
+  

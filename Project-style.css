@@ -422,7 +422,7 @@ main {
     align-items: center;
 	margin-bottom: 10px;
 	overflow: auto;
-	max-height: 57vh;
+	max-height: 48vh;
 }
 
 .project-description img {
@@ -500,11 +500,12 @@ main {
 
 }
 
-@media (max-width: 530px) {
+@media (max-width: 1200px) {
 	.container {
 		padding: 0;
-		margin-bottom: 149%;
+		margin-bottom: 9%;
 	}
+	
 
 	main {
 		display: flex;
@@ -565,7 +566,7 @@ main {
 @media (max-width: 1066px) {
 
 	.container{
-		min-height: 146vh;
+		min-height: 126vh;
 	}
 
 	.nav-items {
@@ -664,7 +665,7 @@ main {
 
   @media (max-width: 1500px ){
   .container{
-	margin: 0 10px;
+	/* margin: 0 10px; */
   }
   .status.ongoing {
     
@@ -676,7 +677,7 @@ main {
   @media (max-width: 530px){
 	.container{
 		padding: 0;
-		/* margin-bottom: 110%; */
+		height: 139vh;
 	}
 	main{
 		display: flex;
@@ -697,6 +698,12 @@ main {
 		padding: 0;
 	  }
 	}
-	  
+
+/* 
+	@media (min-width: 700px) and (max-width:1200px) and (max-height:1200px) and (min-height:1000){
+
+
+	}
+	   */
   
 /* >>>>>>> 25140248feba7f154d4ce53a9703bbe5cc409c92 */

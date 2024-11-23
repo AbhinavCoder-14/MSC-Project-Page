@@ -3,10 +3,10 @@ body {
     padding: 0;
     /* font-family: Menlo, courier-new, courier, monospace; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #091b29;
+    background: #0a0d22;
     
 
-    /* background: linear-gradient(135deg, #0c1224, #10182f); */
+    
 
 
   }
@@ -17,19 +17,17 @@ body {
     position: sticky;
     z-index: 100;
     width: 100%;
-    background-color:#12192795;
-    border: 1px solid #24314b;
+    /* background-color:#12192795; */
+    border: 1px solid #131545;
     box-sizing: border-box;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-
-
-
     top: 0;
     transition: top 0.3s;
   }
   
   .navbar-container {
     display: flex;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     padding: 0 45px;
@@ -113,10 +111,20 @@ body {
 .nav-items li:nth-child(5):hover img {
   transition: all .4s ease-out;
 
+  content: url("images/team-logo-new.png");
+  filter: invert(0);
+  cursor: pointer;
+}
+
+
+.nav-items li:nth-child(6):hover img {
+  transition: all .4s ease-out;
+
   content: url("images/contact-logo.png");
   filter: invert(0);
   cursor: pointer;
 }
+
 
 
 

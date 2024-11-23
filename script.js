@@ -58,3 +58,26 @@ projectItems.forEach((item, index) => {
 
 }
 main();
+
+
+
+burger = document.querySelector(".burger")
+navbar1 = document.querySelector('.navbar-container')
+
+navlist = document.querySelector(".nav-items")
+
+logo = document.querySelector(".logo")
+
+
+burger.addEventListener('click',()=>{
+
+
+  logo.classList.toggle("v-class")
+  navlist.classList.toggle("v-class")
+
+  navbar1.classList.toggle("h-nav")
+
+
+
+
+})

@@ -422,7 +422,7 @@ main {
     align-items: center;
 	margin-bottom: 10px;
 	overflow: auto;
-	max-height: 48vh;
+	max-height: 61vh;
 }
 
 .project-description img {
@@ -505,7 +505,11 @@ main {
 		padding: 0;
 		margin-bottom: 9%;
 	}
-	
+
+	.project-description{
+		height: 10vh;
+	}
+
 
 	main {
 		display: flex;
@@ -566,7 +570,7 @@ main {
 @media (max-width: 1066px) {
 
 	.container{
-		min-height: 126vh;
+		min-height: 140vh;
 	}
 
 	.nav-items {
@@ -604,6 +608,7 @@ main {
 		height: 70px;
 		/* background-color: black; */
 	}
+
 
 	.v-class {
 		visibility: collapse;
@@ -677,7 +682,18 @@ main {
   @media (max-width: 530px){
 	.container{
 		padding: 0;
-		height: 139vh;
+		height: 154vh;
+
+	}
+
+	.work a img {
+		height: 62px;
+	}	
+
+
+	.work a h1{
+
+		font-size: 1.8rem;
 	}
 	main{
 		display: flex;
